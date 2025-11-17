@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/HGFN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProtoSurv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/label-boosted-RAG-for-RRG" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/label-boosted-RAG-for-RRG/cxr-data-ingest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/label-boosted-RAG-for-RRG/rrg/gloria" vcs="Git" />
+  </component>
+</project>
