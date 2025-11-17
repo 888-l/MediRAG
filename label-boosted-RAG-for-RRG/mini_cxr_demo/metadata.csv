@@ -1,0 +1,7 @@
+subject_id,study_id,dicom_id,ViewPosition
+p1,s1,d1,PA
+p2,s2,d2,AP
+p3,s3,d3,PA
+p4,s4,d4,AP
+p5,s5,d5,PA
+p6,s6,d6,AP

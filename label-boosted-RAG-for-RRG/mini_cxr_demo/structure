@@ -1,0 +1,16 @@
+mini_cxr_demo/
+├── split.csv              # 3 个样本：1 train, 1 validate, 1 test
+├── metadata.csv           # 包含 ViewPosition (PA/AP)
+├── labels.csv             # 14 类标签，含 1/0/-1
+├── reports.csv            # 手写模拟的放射学报告
+├── features.h5            # 预生成的图像特征（HDF5 格式）
+└── images/                # 3 张真实胸部 X 光图（已转 JPG）
+    ├── p1/
+    │   └── s1/
+    │       └── d1.jpg
+    ├── p2/
+    │   └── s2/
+    │       └── d2.jpg
+    └── p3/
+        └── s3/
+            └── d3.jpg

@@ -1,0 +1,63 @@
+study_id,retrieved_studies,prompt,actual_text,generated_text
+s5,"s3, s2, s4, s1","You are an expert radiological assistant.
+Your task is to generate a radiology report after <<Report>> given context information.
+The context information contains examples of reports written for similar cases.
+Use the examples to generate a report for the current case.
+Strictly follow the instructions below to generate the reports.
+
+**Instructions**
+
+1. The report must be based on the information in the context.
+2. The report must mimic the style of the reports shown in the context.
+3. Do not generate blank reports.
+
+CONTEXT:
+Example: 1
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 2
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 3
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 4
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+
+Now generate the report for the current case. Always generate reports based on the examples shown.
+<<Report>>
+","Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+","
+In this case, there is a finding of a mass in the left upper lobe. No other abnormalities were detected. The mass appears to be well-circumscribed and homogeneous in density. Further imaging or biopsy is recommended for characterization and potential treatment planning."
+s6,"s4, s3, s2, s1","You are an expert radiological assistant.
+Your task is to generate a radiology report after <<Report>> given context information.
+The context information contains examples of reports written for similar cases.
+Use the examples to generate a report for the current case.
+Strictly follow the instructions below to generate the reports.
+
+**Instructions**
+
+1. The report must be based on the information in the context.
+2. The report must mimic the style of the reports shown in the context.
+3. Do not generate blank reports.
+
+CONTEXT:
+Example: 1
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 2
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 3
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 4
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+
+Now generate the report for the current case. Always generate reports based on the examples shown.
+<<Report>>
+","Pneumothorax along the left lateral aspect. No other acute findings.
+","
+The chest X-ray reveals a left lower lobe consolidation. No other abnormalities detected."

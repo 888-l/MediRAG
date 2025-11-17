@@ -1,0 +1,27 @@
+# Large model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training outputs
+runs/
+logs/
+checkpoints/
+outputs/
+results/
+
+# Data folders
+data/
+dataset/
+datasets/
+images/
+wsi/
+slides/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# temp
+*.tmp

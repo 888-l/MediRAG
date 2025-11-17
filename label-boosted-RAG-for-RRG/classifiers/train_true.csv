@@ -1,0 +1,3 @@
+subject_id,study_id,dicom_id,split,ViewPosition,Atelectasis,Cardiomegaly,Consolidation,Edema,Enlarged Cardiomediastinum,Fracture,Lung Lesion,Lung Opacity,No Finding,Pleural Effusion,Pleural Other,Pneumonia,Pneumothorax,Support Devices
+p1,s1,d1,train,PA,1,0,1,0,1,0,1,0,1,0,1,0,1,0
+p2,s2,d2,train,AP,0,1,0,1,0,1,0,1,0,1,0,1,0,1

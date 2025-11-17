@@ -1,0 +1,207 @@
+study_id,retrieved_studies,prompt,actual_text,generated_text
+s1,"s5, s3, s6, s4, s2","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+
+Example: 2
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 3
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+Pneumothorax along the left lateral aspect. No other acute findings.
+
+Example: 4
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 5
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+
+Medical findings for the current case:
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+
+
+Please generate a report based on this information:
+","Atelectasis noted in the right lower lobe. No other significant findings.
+","
+""Enlarged cardiomediastinum with widened mediastinal contours, consolidation noted in the left lower lobe, and a possible pneumothorax along the right lateral aspect. No other significant findings."""
+s2,"s6, s4, s5, s3, s1","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+Pneumothorax along the left lateral aspect. No other acute findings.
+
+Example: 2
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 3
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+
+Example: 4
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 5
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+
+Medical findings for the current case:
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+
+
+Please generate a report based on this information:
+","Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+","
+Cardiomegaly and bilateral pulmonary edema with typical vascular redistribution are noted. Additionally, there is evidence of a fracture, lung opacity, and pleural effusion. A pneumonia process is also present. Support devices are in place. No other significant findings were detected."
+s3,"s1, s5, s6, s2, s4","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+Example: 2
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+
+Example: 3
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+Pneumothorax along the left lateral aspect. No other acute findings.
+
+Example: 4
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 5
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+
+Medical findings for the current case:
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+
+
+Please generate a report based on this information:
+","Consolidation noted in the right middle lobe. No other abnormalities detected.
+","
+Cardiomegaly with enlarged cardiac silhouette noted. Enlarged cardiomediastinum with widened mediastinal contours. Consolidation observed in the right lower lobe. No other significant findings."
+s4,"s2, s6, s5, s1, s3","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 2
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+Pneumothorax along the left lateral aspect. No other acute findings.
+
+Example: 3
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+
+Example: 4
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+Example: 5
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+
+Medical findings for the current case:
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+
+
+Please generate a report based on this information:
+","Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+","
+Radiology Report:
+
+Atelectasis is noted in the left lower lobe. There is also evidence of lung opacity and pleural effusion in the same region. Edema is present throughout the lungs. Additionally, there is a fracture observed in the left humerus. No other significant findings are noted. The patient has support devices in place."
+s5,"s1, s3, s4, s2, s6","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+Example: 2
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 3
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 4
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 5
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+Pneumothorax along the left lateral aspect. No other acute findings.
+
+
+Medical findings for the current case:
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+
+
+Please generate a report based on this information:
+","Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+","
+Consolidation noted in the left lower lobe with associated atelectasis. Enlarged cardiomediastinum is also noted. No other significant findings. Support devices are present."
+s6,"s2, s4, s3, s1, s5","You are an expert radiology assistant.
+
+Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+
+Example Reports:
+Example: 1
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Cardiomegaly with enlarged cardiac silhouette. No acute findings.
+
+Example: 2
+Labels: Atelectasis, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Support Devices
+Bilateral pulmonary edema with typical vascular redistribution. No other significant findings.
+
+Example: 3
+Labels: Cardiomegaly, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Consolidation noted in the right middle lobe. No other abnormalities detected.
+
+Example: 4
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Pneumothorax
+Atelectasis noted in the right lower lobe. No other significant findings.
+
+Example: 5
+Labels: Atelectasis, Consolidation, Enlarged Cardiomediastinum, Lung Lesion, No Finding, Pleural Other, Support Devices
+Enlarged cardiomediastinum with widened mediastinal contours. Support devices in place.
+
+
+Medical findings for the current case:
+Labels: Cardiomegaly, Edema, Fracture, Lung Opacity, Pleural Effusion, Pneumonia, Pneumothorax
+
+
+Please generate a report based on this information:
+","Pneumothorax along the left lateral aspect. No other acute findings.
+","
+Cardiomegaly with enlarged cardiac silhouette and evidence of bilateral pulmonary edema, as indicated by typical vascular redistribution. No acute findings other than the mentioned conditions."

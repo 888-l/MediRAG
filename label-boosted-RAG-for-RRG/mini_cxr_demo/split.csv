@@ -1,0 +1,7 @@
+subject_id,study_id,dicom_id,split
+p1,s1,d1,train
+p2,s2,d2,train
+p3,s3,d3,validate
+p4,s4,d4,validate
+p5,s5,d5,test
+p6,s6,d6,test

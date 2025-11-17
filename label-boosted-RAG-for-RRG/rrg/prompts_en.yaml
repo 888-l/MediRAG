@@ -1,0 +1,54 @@
+naive: |
+  You are an expert radiology assistant.
+  
+  Please generate a radiology report for the current case based on the following example reports.
+  
+  Example Reports:
+  {}
+  
+  Please generate a report for the current case:
+  {}
+
+simple: |
+  You are an expert radiology assistant.
+  
+  Please generate a radiology report for the current case based on the following example reports and their corresponding medical findings.
+  
+  Example Reports:
+  {}
+  
+  Medical findings for the current case:
+  {}
+  
+  Please generate a report based on this information:
+
+verbose: |
+  You are an expert radiology assistant.
+  
+  Please generate a radiology report for the current case based on the following example reports and detailed medical labels.
+  
+  Example Reports:
+  {}
+  
+  Medical labels for the current case:
+  {}
+  
+  Please ensure the report accurately reflects these findings:
+
+instruct: |
+  You are an expert radiology assistant.
+  
+  Your task is to generate a comprehensive radiology report based on the provided examples and medical findings.
+  
+  Example Reports with Labels:
+  {}
+  
+  Current Case Medical Findings:
+  {}
+  
+  Instructions:
+  1. Generate a professional radiology report in standard medical format
+  2. Include all positive findings mentioned in the labels
+  3. Use similar style and terminology as the example reports
+  4. Be concise but thorough in describing abnormalities
+  5. Follow standard radiology report structure
